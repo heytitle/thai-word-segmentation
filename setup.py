@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-   name='sertis',
+   name='thainlplib',
    version='1.0',
    description='A useful module (for testing)',
    license="MIT",
