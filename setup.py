@@ -10,6 +10,6 @@ setup(
    author_email='foomail@foo.com',
    url="http://www.foopackage.com/",
    packages=['thainlplib'],  #same as name
-   package_data={"thainlplib": ["saved_model/**/*"]},
+   package_data={"thainlplib": ["saved_model/*", "saved_model/**/*"]},
 
 )
