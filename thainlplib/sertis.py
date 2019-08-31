@@ -11,6 +11,7 @@ from thainlplib import ThaiWordSegmentLabeller
 from thainlplib.model import ThaiWordSegmentationModel
 
 DIR = "/".join(__file__.split("/")[:-1])
+print(DIR)
 SAVED_MODEL_PATH = '%s/saved_model' % DIR
 TMP_FILE = '.tmptfrecord'
 
